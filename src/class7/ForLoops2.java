@@ -8,5 +8,11 @@ while(i<10){
     i++;
 }
 
+        int e=0;
+        while(e<10){
+            System.out.print(e + "\t");
+            e++;
+        }
+
 }
     }
