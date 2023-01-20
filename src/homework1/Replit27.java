@@ -1,6 +1,5 @@
 package homework1;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Replit27 {
