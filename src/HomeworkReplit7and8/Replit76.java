@@ -6,24 +6,17 @@ import java.util.Scanner;
 public class Replit76 {
     public static void main(String[] args) {
 
-        Scanner scan=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        String[] days = new String[7];
 
-        System.out.println("Please enter day of the week");
-
-        String [] day = new String[8];
-        day[1]="Sunday";
-        day[2]="Monday";
-        day[3]="Tuesday";
-        day[4]="Wednesday";
-        day[5]="Thursday";
-        day[6]="Friday";
-        day[7]="Saturday";
-
-        for (int i = 0; i < day.length; i++) {
-            day[i]= scan.next();
-
+        for (int i = 0; i < days.length; i++) {
+            System.out.print("Please enter day " + (i + 1) + " of the week:");
+            days[i] = scanner.nextLine();
         }
 
+        for (String day : days) {
+            System.out.println(day);
+        }
     }
 }
 
