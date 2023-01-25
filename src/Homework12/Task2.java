@@ -6,12 +6,16 @@ package Homework12;
 public class Task2 {
     public static void main(String[] args) {
 
-        String w = "Sunday";
-        String r=" ";
-        for (int i = 0; i < w.length(); i++) {
-            r = w.charAt(i)+r;
+        String word = "Sunday";
+        String reverse = " ";
+        for (int i = 0; i < word.length(); i++) {
+            reverse = word.charAt(i) + reverse;
         }
-        System.out.println(r);
+        System.out.println(reverse);
 
+        for (int i = word.length()-1; i >= 0; i--) {
+            System.out.print(word.charAt(i));
+
+        }
     }
 }
