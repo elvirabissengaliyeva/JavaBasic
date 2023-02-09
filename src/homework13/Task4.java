@@ -6,13 +6,15 @@ public class Task4 {
     public static void main(String[] args) {
         String input = "This is sentence i want to reverse";
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder str = new StringBuilder();
         String[] words = input.split(" ");
         for (String word : words) {
-            sb.append(new StringBuilder(word).reverse().toString() + " ");
+            str.append(new StringBuilder(word).reverse().toString() + " ");
         }
-        String output = sb.toString().trim();
+        String output = str.toString().trim();
         System.out.println(output);
     }
+
 }
+
 

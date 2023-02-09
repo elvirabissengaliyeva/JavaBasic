@@ -23,4 +23,5 @@ public class Task5 {
               System.out.println(str+" is not a palindrome");
 
               }
+
               }
